@@ -28,13 +28,13 @@ export default function SearchBar() {
         dispatch({ type: "SET_MOVIES", payload: data });
         lastQuery.current = searchQuery; 
       } catch (error) {
-        console.error("Erreur lors de la récupération des films :", error);
-        dispatch({ type: "SET_ERROR", payload: "Impossible de récupérer les films." });
+        console.error("Error fetching movies:", error);
+        dispatch({ type: "SET_ERROR", payload: "Unable to fetch movies." });
       } finally {
         dispatch({ type: "SET_LOADING", payload: false });
       }
     }, 500),
-    []
+    [dispatch]
   );
 
   useEffect(() => {
@@ -45,7 +45,7 @@ export default function SearchBar() {
   }, [state.query, fetchMovies, state.loading]);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    dispatch({ type: "SET_QUERY", payload: e.target.value });
+    dispatch({ type: "SET_QUERY", payload: (e.target as HTMLInputElement).value });
     navigate("/search");
   };
 
