@@ -1,6 +1,6 @@
 import { MovieCardProps } from "../@types";
 import { Link } from "react-router-dom";
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import { motion } from "motion/react";
 import defaultImage from "../assets/defaultImage.jpg";

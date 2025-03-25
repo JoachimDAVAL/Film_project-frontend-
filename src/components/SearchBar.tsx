@@ -1,4 +1,4 @@
-import { useEffect, useCallback, useRef } from "react";
+import React, { useEffect, useCallback, useRef } from "react";
 import { useSearch } from "../contexts/SearchContext";
 import { useNavigate } from "react-router-dom";
 import debounce from "lodash.debounce";

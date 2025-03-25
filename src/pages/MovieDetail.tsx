@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { IMovie, IWatchProviders, IActors} from "../@types";
-import { useEffect, useState, JSX } from "react";
+import React, { useEffect, useState, JSX } from "react";
 import { getMovieById, getProvidersByMovieId, getMovieCredits } from "../services/api";
 import Star from "../assets/Star.webp";
 import MovieDetailModal from "../components/MovieDetailModal";

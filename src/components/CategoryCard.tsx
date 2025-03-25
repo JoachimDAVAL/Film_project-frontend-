@@ -1,3 +1,4 @@
+import React from 'react';
 import { IGenre } from '../@types';
 
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useSearch } from "../contexts/SearchContext";
 import MovieCard from "../components/MovieCard";
 

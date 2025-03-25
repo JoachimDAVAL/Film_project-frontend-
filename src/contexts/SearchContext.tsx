@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer, ReactNode } from "react";
+import React, { createContext, useContext, useReducer, ReactNode } from "react";
 import { IMovie } from "../@types";
 
 interface SearchState {

@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { IMovie } from "../@types";
 import MovieCard from "../components/MovieCard";
 import {getPopularMovies} from "../services/api";
