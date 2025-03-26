@@ -1,3 +1,5 @@
+/// <reference lib="dom" />
+
 import { useState, useEffect, useRef } from 'react';
 import { getAllGenres } from '../services/api';
 import { IGenre, ModalCategoryProps } from '../@types';

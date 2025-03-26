@@ -1,3 +1,4 @@
+/// <reference lib="dom" />
 import logo from '../assets/Logo components.svg';
 import categoryIcon from '../assets/category.png';
 import { Link, useLocation } from 'react-router-dom';
