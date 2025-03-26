@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Routes, Route } from 'react-router';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -9,7 +9,7 @@ import SearchPage from './pages/SearchPage';
 import { MovieFilterProvider } from './contexts/FilterAndSortByContext';
 // import PopularMoviesList from './pages/PopularMoviesList';
 import ErrorBoundary from './errorBoundary';
-
+import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 function App() {
   

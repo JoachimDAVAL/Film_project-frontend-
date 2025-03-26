@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { IMovie } from "../@types";
 import MovieCard from "../components/MovieCard";
 import {getPopularMovies} from "../services/api";
-
+import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 
 export default function MoviesList() {

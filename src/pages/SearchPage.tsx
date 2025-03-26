@@ -1,6 +1,6 @@
 import { useSearch } from "../contexts/SearchContext";
 import MovieCard from "../components/MovieCard";
-
+import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 
 export default function SearchPage() {
