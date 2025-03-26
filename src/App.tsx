@@ -9,7 +9,7 @@ import SearchPage from './pages/SearchPage';
 import { MovieFilterProvider } from './contexts/FilterAndSortByContext';
 // import PopularMoviesList from './pages/PopularMoviesList';
 import ErrorBoundary from './errorBoundary';
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+import * as React from "react";
 
 function App() {
   
