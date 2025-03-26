@@ -53,7 +53,7 @@ export default function SearchBar() {
   };
 
   return (
-    <div className="place-items-center">
+    <div className="flex flex-col items-center justify-center">
       <input
         type="text"
         placeholder="Search..."
