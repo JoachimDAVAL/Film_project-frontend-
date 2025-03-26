@@ -36,7 +36,7 @@ const loader = useRef(null);
       {/* <div className="relative h-[90vh]">
         <HomeText />
       </div> */}
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 md:px-10 content-center justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 content-center justify-center items-center">
         {movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
 
         {hasMore &&  (<div className="flex justify-center items-center mt-4"> <div ref={loader} className="loader"></div> </div>) }
