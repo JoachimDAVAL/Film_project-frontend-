@@ -54,7 +54,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
       {showDetails && (
         <Link to={`/movie/${movie.id}`}>
           <div 
-          className="absolute bg-cover bg-contain bg-white bg-opacity-100 top-0 left-0 right-0 bottom-0 text-white p-4 rounded-xl flex flex-col justify-around items-center shadow-md overflow-hidden transition-transform hover:scale-0 lg:hover:scale-105 duration-500"
+          className="absolute bg-cover bg-white bg-opacity-100 top-0 left-0 right-0 bottom-0 text-white p-4 rounded-xl flex flex-col justify-around items-center shadow-md overflow-hidden transition-transform lg:hover:scale-105 lg:duration-500"
           style={{backgroundImage: movie.poster_path
             ? `url(https://image.tmdb.org/t/p/w342${movie.poster_path})`
             : `url(${defaultImage})`,
@@ -62,7 +62,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
           backgroundPosition: "center"
           }}
           >
-            <div className="absolute  w-[200] h[300] lg:w-[350px] lg:h-[400px] 2xl:w-[350px] 2xl:h-[500px] inset-0 bg-white/60 text-black">
+            <div className="absolute inset-0 bg-white/60 text-black">
               <div className="flex flex-wrap text-black m-10 justify-center content-around">
               <h3 className="font-bold text-4xl mb-10">{movie.title}</h3>
               <p className="text-xl mb-20">{truncateText(movie.overview, 200)}</p>
