@@ -16,7 +16,7 @@ function App() {
   return (
     <MovieFilterProvider>
     <SearchProvider>
-      <div className='App'>
+      <div className='App place-items-center'>
       <ErrorBoundary>
         <Header />
         </ErrorBoundary>
