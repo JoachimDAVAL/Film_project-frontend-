@@ -55,10 +55,10 @@ export default function MovieCard({ movie }: MovieCardProps) {
         }}
       >
         <div className="absolute inset-0 bg-white/60 text-black">
-          <div className="flex flex-col text-black m-10 justify-center content-center md:content-around">
-            <h3 className="font-bold text-2xl md:text-4xl mb-10">{movie.title}</h3>
+          <div className="flex flex-col text-black m-10 justify-center content-around">
+            <h3 className="font-bold text-3xl md:text-4xl mb-10 items-center">{movie.title}</h3>
             <p className="hidden md:block text-xl mb-20">{truncateText(movie.overview, 200)}</p>
-            <p className="flex text-2xl md:text-4xl justify-center items-center font-bold mb-10">
+            <p className="flex text-3xl md:text-4xl justify-center items-center font-bold mb-10">
               {movie.vote_average}
               <BsFillStarFill className="ml-2" />
             </p>
