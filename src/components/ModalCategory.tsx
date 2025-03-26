@@ -76,7 +76,7 @@ export default function ModalCategory({ isOpen }: ModalCategoryProps) {
           >
           <SearchBar />
 
-          <div className='max-w-[40vh] w-full md:max-w-7xl'>
+          <div className='max-w-[40vh] w-full md:max-w-7xl mx-auto'>
    
             <button
               onClick={() => scroll('left')}
