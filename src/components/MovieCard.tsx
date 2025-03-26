@@ -1,6 +1,6 @@
 import { MovieCardProps } from "../@types";
 import { Link } from "react-router-dom";
-import { useState, useRef } from "react";
+import { useState} from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import { motion } from "motion/react";
 import defaultImage from "../assets/defaultImage.jpg";
@@ -10,7 +10,7 @@ import defaultImage from "../assets/defaultImage.jpg";
 export default function MovieCard({ movie }: MovieCardProps) {
   const [showDetails, setShowDetails] = useState(false);
 
-  const constraintsRef = useRef<HTMLDivElement>(null);
+  // const constraintsRef = useRef<HTMLDivElement>(null);
 
   const truncateText = (text: string, maxLength: number) => {
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
@@ -29,14 +29,14 @@ export default function MovieCard({ movie }: MovieCardProps) {
       className="relative place-items-center"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      ref={constraintsRef}
+      // ref={constraintsRef}
       
     >
-      <motion.div 
+      {/* <motion.div 
       drag
       dragConstraints={constraintsRef}
       dragElastic={0.1}
-    >
+    > */}
       
         <img
           src={
@@ -77,8 +77,8 @@ export default function MovieCard({ movie }: MovieCardProps) {
             </div>
         </Link>
       )}
-
-        </motion.div>
+{/* 
+        </motion.div> */}
     </motion.div>
   );
 }
