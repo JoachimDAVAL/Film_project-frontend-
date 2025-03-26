@@ -3,6 +3,7 @@ import { useSearch } from "../contexts/SearchContext";
 import { useNavigate } from "react-router-dom";
 import { debounce } from "lodash";
 import { getMoviesBySearch } from "../services/api";
+import React from "react";
 
 
 
