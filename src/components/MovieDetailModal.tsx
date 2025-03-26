@@ -1,6 +1,6 @@
 import { JSX } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import React from "react";
+
 
 
 interface ModalProps {
