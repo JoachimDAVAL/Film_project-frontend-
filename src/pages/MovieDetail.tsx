@@ -150,7 +150,7 @@ export function MovieDetail() {
 
         <div className="movie-detail-description place-content-around md:m-10 grid grid-cols-1 md:grid-cols-3 md:gap-10 text-center items-center bg-white md:p-4 rounded-xl shadow-xl">
 
-         <div className="my-10 md:my-0 row-span-1 row-start-4 md:row-span-2 md:row-start-1 md:col-start-1 content-center justify-center items-center place-items-center">
+         <div className="my-10 md:my-0 row-span-1 row-start-4 md:row-span-2 md:row-start-1 md:col-start-1 self-center justify-self-center  place-self-center">
             <div className=" bg-contain bg-center bg-no-repeat flex flex-col items-center justify-center p-4"
             style={{
               backgroundImage: `url(${Star})`,
