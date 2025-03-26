@@ -1,4 +1,5 @@
 import { IGenre } from '../@types';
+import React from "react";
 
 
 interface GenreCardProps {

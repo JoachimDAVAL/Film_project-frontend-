@@ -1,4 +1,6 @@
 import { motion } from "motion/react";
+import React from "react";
+
 
 const textData = [
   "Welcome to Hoovie Your Ultimate Movie Search Tool!",

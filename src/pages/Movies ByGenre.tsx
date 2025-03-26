@@ -1,6 +1,8 @@
 import { useRef, useEffect } from "react";
 import { useMovieFilter } from "../contexts/FilterAndSortByContext";
 import MovieCard from "../components/MovieCard";
+import React from "react";
+
 
 
 export default function MoviesByGenre() {

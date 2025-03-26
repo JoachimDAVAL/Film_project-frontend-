@@ -1,6 +1,8 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { getFilteredMovies } from "../services/api";
 import { IMovie } from "../@types";
+import React from "react";
+
 
 interface IMovieFilterContext {
   movies: IMovie[];

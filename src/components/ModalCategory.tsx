@@ -7,6 +7,8 @@ import { useMovieFilter } from '../contexts/FilterAndSortByContext';
 import {YearsDropdown, VoteAverageDropdown, SortByDropdown} from './FilterOptions';
 import { AnimatePresence, motion } from 'motion/react';
 import SearchBar from './SearchBar';
+import React from "react";
+
 
 
 export default function ModalCategory({ isOpen }: ModalCategoryProps) {

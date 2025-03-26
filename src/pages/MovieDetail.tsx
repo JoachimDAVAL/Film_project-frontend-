@@ -4,6 +4,8 @@ import { useEffect, useState, JSX } from "react";
 import { getMovieById, getProvidersByMovieId, getMovieCredits } from "../services/api";
 import Star from "../assets/Star.webp";
 import MovieDetailModal from "../components/MovieDetailModal";
+import React from "react";
+
 
 export function MovieDetail() {
   const { id } = useParams<{ id: string }>();

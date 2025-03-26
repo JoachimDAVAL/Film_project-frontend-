@@ -1,5 +1,7 @@
 import { useSearch } from "../contexts/SearchContext";
 import MovieCard from "../components/MovieCard";
+import React from "react";
+
 
 export default function SearchPage() {
   const { state } = useSearch();

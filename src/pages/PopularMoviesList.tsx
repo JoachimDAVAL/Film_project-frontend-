@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from "react";
 import { IMovie } from "../@types";
 import MovieCard from "../components/MovieCard";
 import {getPopularMovies} from "../services/api";
+import React from "react";
+
 
 export default function MoviesList() {
   const [movies, setMovies] = useState<IMovie[]>([]);
