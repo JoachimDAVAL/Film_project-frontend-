@@ -62,7 +62,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
           backgroundPosition: "center"
           }}
           >
-            <div className="relative lg:absolute inset-0 bg-white/60 text-black">
+            <div className="absolute inset-0 bg-white/60 text-black">
               <div className="flex flex-wrap text-black m-10 justify-center content-around">
               <h3 className="font-bold text-4xl mb-10">{movie.title}</h3>
               <p className="text-xl mb-20">{truncateText(movie.overview, 200)}</p>
