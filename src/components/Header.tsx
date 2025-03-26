@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import ModalCategory from './ModalCategory';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+
 
 
 export default function Header() {

@@ -1,5 +1,4 @@
 import { IGenre } from '../@types';
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 
 interface GenreCardProps {

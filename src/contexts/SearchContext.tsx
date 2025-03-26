@@ -1,6 +1,7 @@
 import { createContext, useContext, useReducer, ReactNode } from "react";
 import { IMovie } from "../@types";
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+import * as React from "react";
+
 
 
 interface SearchState {

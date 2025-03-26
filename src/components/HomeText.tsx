@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+
 
 
 const textData = [

@@ -1,6 +1,6 @@
 import { JSX } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+
 
 
 interface ModalProps {

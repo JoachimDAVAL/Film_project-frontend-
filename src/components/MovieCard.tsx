@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import { motion } from "motion/react";
 import defaultImage from "../assets/defaultImage.jpg";
-import React from 'react'; // eslint-disable-line @typescript-eslint/no-unused-vars
+
 
 
 export default function MovieCard({ movie }: MovieCardProps) {
