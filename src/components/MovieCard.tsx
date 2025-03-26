@@ -26,7 +26,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
 
   return (
     <motion.div
-      className="relative place-items-center"
+      className="relative place-items-center inline-block"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       // ref={constraintsRef}
