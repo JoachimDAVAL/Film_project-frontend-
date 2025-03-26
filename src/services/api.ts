@@ -2,7 +2,7 @@ import axios from "axios";
 import { IMovie, IGenre } from "../@types";
 
 // L'URL de ton serveur Express (en développement, tu utilises souvent localhost:5000 ou un port spécifique)
-const API_URL = "https://film-project-backend.vercel.app"; 
+const API_URL = "https://film-project-backend.vercel.app/api"; 
 
 const httpRequester = axios.create({
   baseURL: API_URL,
