@@ -26,7 +26,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
 
   return (
     <motion.div
-  className="relative place-items-center w-[200px] h-[300px] lg:w-[350px] lg:h-[400px] 2xl:w-[350px] 2xl:h-[500px] mb-5"
+  className="relative place-items-center w-[300px] h-[350px] lg:w-[350px] lg:h-[400px] 2xl:w-[350px] 2xl:h-[500px] mb-5"
   onMouseEnter={handleMouseEnter}
   onMouseLeave={handleMouseLeave}
 >
