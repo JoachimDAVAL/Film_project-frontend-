@@ -96,7 +96,6 @@ export async function getMovieCredits(id: number) {
 export async function getAllGenres() {
   try {
     const httpResponse = await httpRequester.get<IGenre[]>('/genres');
-    console.log(httpResponse);
     return httpResponse.data;
   } catch (error) {
     console.error("Erreur lors de la récupération des genres : ", error);
