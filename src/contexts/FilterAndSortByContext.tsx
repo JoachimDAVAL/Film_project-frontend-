@@ -60,7 +60,10 @@ export function MovieFilterProvider({ children }: { children: ReactNode }) {
       if (data.length === 0) {
         setHasMore(false);
       } else {
+        
         setMovies((prevMovies) => {
+          // We use a Set to filter out duplicate movies based on their IDs
+          // This way, we can keep the unique movies in the state
           const uniqueMovies = [...new Map([...prevMovies, ...data].map((m) => [m.id, m])).values()];
           return uniqueMovies;
 
